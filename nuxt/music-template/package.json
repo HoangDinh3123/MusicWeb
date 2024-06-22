@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^41.3.1",
+    "@ckeditor/ckeditor5-vue": "^5.1.0",
+    "@nuxtjs/auth-next": "^5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.5.1",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.3",
+    "next-auth": "^4.21.1",
+    "nuxt": "^3.11.2",
+    "nuxt-sweetalert2": "^1.0.0",
+    "nuxt-swiper": "^1.2.2",
+    "nuxt-tailvue": "^1.0.95",
+    "pinia": "^2.1.7",
+    "pusher-js": "^8.4.0-rc2",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-i18n": "^10.0.0-alpha.4",
+    "vue-router": "^4.3.0",
+    "vue-sweetalert2": "^5.0.11"
+  },
+  "devDependencies": {
+    "@sidebase/nuxt-auth": "^0.7.2",
+    "autoprefixer": "^10.4.19",
+    "nuxt-icon": "^0.6.10",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
